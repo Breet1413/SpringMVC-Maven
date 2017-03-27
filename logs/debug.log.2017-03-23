@@ -1,0 +1,345 @@
+2017-03-23 14:28:46,264 INFO[org.springframework.web.servlet.DispatcherServlet:488] - FrameworkServlet 'spring-dispatcher': initialization started
+2017-03-23 14:28:46,285 INFO[org.springframework.web.context.support.XmlWebApplicationContext:573] - Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:28:46 CST 2017]; root of context hierarchy
+2017-03-23 14:28:46,327 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]
+2017-03-23 14:28:48,075 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-redis.xml]
+2017-03-23 14:28:48,146 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-service.xml]
+2017-03-23 14:28:48,176 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-web.xml]
+2017-03-23 14:28:48,408 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-03-23 14:28:48,417 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [redis.properties]
+2017-03-23 14:28:48,422 INFO[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:153] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-03-23 14:28:53,728 INFO[com.alibaba.druid.pool.DruidDataSource:722] - {dataSource-1} inited
+2017-03-23 14:28:54,274 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:532] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.controller.indexController.index()
+2017-03-23 14:28:54,653 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:28:46 CST 2017]; root of context hierarchy
+2017-03-23 14:28:54,714 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:28:46 CST 2017]; root of context hierarchy
+2017-03-23 14:28:54,846 INFO[org.springframework.web.servlet.DispatcherServlet:507] - FrameworkServlet 'spring-dispatcher': initialization completed in 8579 ms
+2017-03-23 14:32:26,896 INFO[org.springframework.web.servlet.DispatcherServlet:488] - FrameworkServlet 'spring-dispatcher': initialization started
+2017-03-23 14:32:26,927 INFO[org.springframework.web.context.support.XmlWebApplicationContext:573] - Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:32:26 CST 2017]; root of context hierarchy
+2017-03-23 14:32:26,965 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]
+2017-03-23 14:32:27,077 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-redis.xml]
+2017-03-23 14:32:27,153 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-service.xml]
+2017-03-23 14:32:27,193 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-web.xml]
+2017-03-23 14:32:27,480 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-03-23 14:32:27,490 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [redis.properties]
+2017-03-23 14:32:27,496 INFO[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:153] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-03-23 14:32:28,056 INFO[com.alibaba.druid.pool.DruidDataSource:722] - {dataSource-1} inited
+2017-03-23 14:32:28,814 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:532] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.controller.indexController.index()
+2017-03-23 14:32:29,352 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:32:26 CST 2017]; root of context hierarchy
+2017-03-23 14:32:29,492 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:32:26 CST 2017]; root of context hierarchy
+2017-03-23 14:32:29,981 INFO[org.springframework.web.servlet.DispatcherServlet:507] - FrameworkServlet 'spring-dispatcher': initialization completed in 3082 ms
+2017-03-23 14:37:12,286 INFO[org.springframework.web.servlet.DispatcherServlet:488] - FrameworkServlet 'spring-dispatcher': initialization started
+2017-03-23 14:37:12,309 INFO[org.springframework.web.context.support.XmlWebApplicationContext:573] - Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:37:12 CST 2017]; root of context hierarchy
+2017-03-23 14:37:12,399 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]
+2017-03-23 14:37:12,552 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-redis.xml]
+2017-03-23 14:37:12,747 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-service.xml]
+2017-03-23 14:37:12,852 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-web.xml]
+2017-03-23 14:37:13,162 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-03-23 14:37:13,171 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [redis.properties]
+2017-03-23 14:37:13,177 INFO[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:153] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-03-23 14:37:13,598 INFO[com.alibaba.druid.pool.DruidDataSource:722] - {dataSource-1} inited
+2017-03-23 14:37:13,794 WARN[org.springframework.web.context.support.XmlWebApplicationContext:544] - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\MySpringMVC\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:667)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:633)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:552)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:493)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\MySpringMVC\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 29 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 32 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 34 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 38 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 40 more
+2017-03-23 14:37:13,804 INFO[com.alibaba.druid.pool.DruidDataSource:1447] - {dataSource-1} closed
+2017-03-23 14:37:13,806 ERROR[org.springframework.web.servlet.DispatcherServlet:501] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\MySpringMVC\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:667)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:633)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:552)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:493)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\MySpringMVC\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 29 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 32 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 34 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.lyz.user.bean.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 38 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.lyz.user.bean.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 40 more
+2017-03-23 14:37:44,458 INFO[org.springframework.web.servlet.DispatcherServlet:488] - FrameworkServlet 'spring-dispatcher': initialization started
+2017-03-23 14:37:44,478 INFO[org.springframework.web.context.support.XmlWebApplicationContext:573] - Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:37:44 CST 2017]; root of context hierarchy
+2017-03-23 14:37:44,510 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]
+2017-03-23 14:37:44,626 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-redis.xml]
+2017-03-23 14:37:44,704 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-service.xml]
+2017-03-23 14:37:44,746 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-web.xml]
+2017-03-23 14:37:45,008 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-03-23 14:37:45,016 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [redis.properties]
+2017-03-23 14:37:45,021 INFO[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:153] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-03-23 14:37:45,462 INFO[com.alibaba.druid.pool.DruidDataSource:722] - {dataSource-1} inited
+2017-03-23 14:37:45,688 WARN[org.springframework.web.context.support.XmlWebApplicationContext:544] - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\MySpringMVC\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:667)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:633)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:552)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:493)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\MySpringMVC\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 29 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 32 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 34 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 38 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 40 more
+2017-03-23 14:37:45,697 INFO[com.alibaba.druid.pool.DruidDataSource:1447] - {dataSource-1} closed
+2017-03-23 14:37:45,699 ERROR[org.springframework.web.servlet.DispatcherServlet:501] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\MySpringMVC\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:667)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:633)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:552)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:493)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\MySpringMVC\target\classes\mapper\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 29 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 32 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 34 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 38 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 40 more
+2017-03-23 14:38:36,651 INFO[org.springframework.web.servlet.DispatcherServlet:488] - FrameworkServlet 'spring-dispatcher': initialization started
+2017-03-23 14:38:36,671 INFO[org.springframework.web.context.support.XmlWebApplicationContext:573] - Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:38:36 CST 2017]; root of context hierarchy
+2017-03-23 14:38:36,709 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]
+2017-03-23 14:38:36,828 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-redis.xml]
+2017-03-23 14:38:36,899 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-service.xml]
+2017-03-23 14:38:36,927 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-web.xml]
+2017-03-23 14:38:37,153 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-03-23 14:38:37,163 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [redis.properties]
+2017-03-23 14:38:37,170 INFO[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:153] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-03-23 14:38:37,561 INFO[com.alibaba.druid.pool.DruidDataSource:722] - {dataSource-1} inited
+2017-03-23 14:38:38,137 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:532] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.controller.indexController.index()
+2017-03-23 14:38:38,484 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:38:36 CST 2017]; root of context hierarchy
+2017-03-23 14:38:38,540 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:38:36 CST 2017]; root of context hierarchy
+2017-03-23 14:38:38,671 INFO[org.springframework.web.servlet.DispatcherServlet:507] - FrameworkServlet 'spring-dispatcher': initialization completed in 2018 ms
+2017-03-23 14:38:47,128 DEBUG[com.example.dao.UserDao.getNewLest:145] - ==>  Preparing: select u.id, u.name, u.sex, u.age from user u where u.id = ? 
+2017-03-23 14:38:47,270 DEBUG[com.example.dao.UserDao.getNewLest:145] - ==> Parameters: null
+2017-03-23 14:38:47,292 DEBUG[com.example.dao.UserDao.getNewLest:145] - <==      Total: 0
+2017-03-23 14:39:38,694 INFO[org.springframework.web.servlet.DispatcherServlet:488] - FrameworkServlet 'spring-dispatcher': initialization started
+2017-03-23 14:39:38,715 INFO[org.springframework.web.context.support.XmlWebApplicationContext:573] - Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:39:38 CST 2017]; root of context hierarchy
+2017-03-23 14:39:38,752 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]
+2017-03-23 14:39:38,860 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-redis.xml]
+2017-03-23 14:39:38,931 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-service.xml]
+2017-03-23 14:39:38,963 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-web.xml]
+2017-03-23 14:39:39,185 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-03-23 14:39:39,194 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [redis.properties]
+2017-03-23 14:39:39,200 INFO[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:153] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-03-23 14:39:39,547 INFO[com.alibaba.druid.pool.DruidDataSource:722] - {dataSource-1} inited
+2017-03-23 14:39:40,086 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:532] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.controller.indexController.index()
+2017-03-23 14:39:40,422 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:39:38 CST 2017]; root of context hierarchy
+2017-03-23 14:39:40,486 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 14:39:38 CST 2017]; root of context hierarchy
+2017-03-23 14:39:40,634 INFO[org.springframework.web.servlet.DispatcherServlet:507] - FrameworkServlet 'spring-dispatcher': initialization completed in 1938 ms
+2017-03-23 14:39:44,643 DEBUG[com.example.dao.UserDao.getNewLest:145] - ==>  Preparing: select u.id, u.name, u.sex, u.age from user u where u.id = 1 
+2017-03-23 14:39:44,799 DEBUG[com.example.dao.UserDao.getNewLest:145] - ==> Parameters: 
+2017-03-23 14:39:44,827 DEBUG[com.example.dao.UserDao.getNewLest:145] - <==      Total: 1
+2017-03-23 16:02:24,843 INFO[org.springframework.web.servlet.DispatcherServlet:488] - FrameworkServlet 'spring-dispatcher': initialization started
+2017-03-23 16:02:24,864 INFO[org.springframework.web.context.support.XmlWebApplicationContext:573] - Refreshing WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 16:02:24 CST 2017]; root of context hierarchy
+2017-03-23 16:02:24,915 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-dao.xml]
+2017-03-23 16:02:25,104 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-redis.xml]
+2017-03-23 16:02:25,179 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-service.xml]
+2017-03-23 16:02:25,211 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] - Loading XML bean definitions from file [C:\MySpringMVC\target\classes\spring\spring-web.xml]
+2017-03-23 16:02:25,458 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-03-23 16:02:25,468 INFO[org.springframework.context.support.PropertySourcesPlaceholderConfigurer:172] - Loading properties file from class path resource [redis.properties]
+2017-03-23 16:02:25,473 INFO[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:153] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-03-23 16:02:25,917 INFO[com.alibaba.druid.pool.DruidDataSource:722] - {dataSource-1} inited
+2017-03-23 16:02:26,603 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:532] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.controller.indexController.index()
+2017-03-23 16:02:27,042 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 16:02:24 CST 2017]; root of context hierarchy
+2017-03-23 16:02:27,140 INFO[org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-dispatcher-servlet': startup date [Thu Mar 23 16:02:24 CST 2017]; root of context hierarchy
+2017-03-23 16:02:27,315 INFO[org.springframework.web.servlet.DispatcherServlet:507] - FrameworkServlet 'spring-dispatcher': initialization completed in 2470 ms
+2017-03-23 16:06:07,726 DEBUG[com.example.dao.UserDao.getNewLest:145] - ==>  Preparing: select u.id, u.name, u.sex, u.age from user u where u.id = 1 
+2017-03-23 16:06:07,884 DEBUG[com.example.dao.UserDao.getNewLest:145] - ==> Parameters: 
+2017-03-23 16:06:07,934 DEBUG[com.example.dao.UserDao.getNewLest:145] - <==      Total: 1
