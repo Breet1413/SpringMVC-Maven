@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.UserDao">
+	<sql id="userField">
+		a.id as "id",
+		a.name as "name",
+		a.sex as "sex",
+		a.age as "age"
+	</sql>
+	<!-- 插入一条用户记录 -->
+	<insert id="saveUser" parameterType="com.example.entity.User">
+		insert into user (name, sex, age)
+		values ( #{name}, #{sex}, #{age} )
+	</insert>
+
+	<!-- 获取所有用户 -->
+	<select id="listAllUser" resultType="com.example.entity.User">
+		select
+			<include refid="userField"/>
+	  	from user as a
+	</select>
+
+	<!-- 更新用户信息 -->
+	<update id="updateUser" parameterType="com.example.entity.User">
+		update user
+		<set>
+			<if test="name != null and name != '' ">
+				name = #{name},
+			</if>
+			<if test="sex != null and sex != '' ">
+				sex = #{sex},
+			</if>
+			<if test="age != null and age != '' ">
+				age = #{age},
+			</if>
+		</set>
+		where id = #{id}
+	</update>
+
+	<!-- 根据id删除用户 -->
+	<delete id="deleteUserById" parameterType="java.lang.Integer">
+		delete from user where id = #{id}
+	</delete>
+	<!-- 根据id获取用户-->
+	<select id="getUserById" parameterType="java.lang.Integer"  resultType="com.example.entity.User">
+		select
+		  	<include refid="userField"/>
+		from user as a where a.id = #{id}
+	</select>
+	<!-- 批量添加用户-->
+	<insert id="batchSaveUser" parameterType="java.util.List">
+		insert into user (name,sex,age) values
+		<!-- 动态SQL之foreach的用法 -->
+		<!-- collection="users" 用于指定循环集合的名称，如果接口中并未指定参数别名，那么默认就是list
+         item="u" 用于指定每次循环后的对象的别名
+         separator="," 用于指定每次循环后之间的分割符-->
+		<foreach collection="list" item="u" separator=",">
+			(#{u.name},#{u.sex},#{u.age})
+		</foreach>
+	</insert>
+	<!-- 批量删除-->
+	<delete id="batchDeleteUser" parameterType="java.lang.String">
+		DELETE  FROM  bulletin where id in
+		<foreach item="idItem" collection="array" open="(" separator="," close=")">
+			#{idItem}
+		</foreach>
+	</delete>
+</mapper>

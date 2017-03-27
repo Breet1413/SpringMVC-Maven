@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/mvc 
+		http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+        <!-- 扫描controller(后端控制器),并且扫描其中的注解-->
+        <context:component-scan base-package="com.example.controller"/>
+        <!-- 定义无Controller的path<->view直接映射 -->
+        <mvc:view-controller path="/" view-name="redirect:admin"/>
+
+        <!--配置JSP　显示ViewResolver(视图解析器)-->
+        <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+            <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+            <property name="prefix" value="/WEB-INF/views/"/>
+            <property name="suffix" value=".jsp"/>
+        </bean>
+        <!-- 开启驱动注解 可以将request参数与绑定到controller参数上-->
+        <mvc:annotation-driven/>
+        <!-- 服务扫描-->
+        <context:component-scan base-package="com.example.service" />
+        <!--静态资源默认servlet配置
+           1、加入对静态资源的处理:js,css,gif,png
+           2、允许使用"/"做整体映射
+           -->
+        <mvc:default-servlet-handler/>
+        <mvc:resources mapping="/statics/**" location="/WEB-INF/statics/" /><!--可配置多个 -->
+
+        <!--spring mvc 子线程配置 为了提高效率有的项目需要线程来完成相关功能，不要可忽略-->
+        <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+            <!-- 核心线程数 -->
+            <property name="corePoolSize" value="5" />
+            <!-- 最大线程数 -->
+            <property name="maxPoolSize" value="50" />
+            <!-- 队列最大长度 -->
+            <property name="queueCapacity" value="1000" />
+            <!-- 线程池维护线程所允许的空闲时间，默认为60s -->
+            <property name="keepAliveSeconds" value="60" />
+        </bean>
+        <!-- 拦截器配置(可配置多个)，拦截顺序：先执行后定义的，排在第一位的最后执行。-->
+        <mvc:interceptors>
+            <mvc:interceptor>
+                <mvc:mapping path="/admin/**" /><!--需要拦截的控制器-->
+                <mvc:exclude-mapping path="/admin/login"/>
+                <!--<mvc:exclude-mapping path="/admin/index"/>-->
+                <mvc:exclude-mapping path="/admin/loginIn"/><!--不需要拦截的控制器-->
+                <bean class="com.example.interceptor.LogInterceptor" />
+            </mvc:interceptor>
+        </mvc:interceptors>
+
+        <!-- 上传功能配置 -->
+        <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+            <property name="defaultEncoding" value="utf-8" />
+            <property name="maxUploadSize" value="10485760000" />
+            <property name="maxInMemorySize" value="40960" />
+        </bean>
+
+</beans>
